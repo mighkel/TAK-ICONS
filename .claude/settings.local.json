@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh --version)",
+      "Bash(zip -r ../NWCG-GeoOps2026-R2.zip . --exclude \"*/NWCG-GeoOps_ATAK-Export/*\")",
+      "Read(//c/Users/PNADMIN/Documents/GitHub/**)",
+      "Bash(powershell.exe -Command \"Compress-Archive -Path ''C:\\\\Users\\\\PNADMIN\\\\Documents\\\\GitHub\\\\TAK-ICONS\\\\NWCG\\\\*'' -DestinationPath ''C:\\\\Users\\\\PNADMIN\\\\Documents\\\\GitHub\\\\TAK-ICONS\\\\NWCG-GeoOps2026-R2.zip'' -Force\")"
+    ]
+  }
+}
