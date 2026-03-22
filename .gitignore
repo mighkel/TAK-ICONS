@@ -1,0 +1,2 @@
+# Don't commit release zip files — attach these to GitHub Releases instead
+*.zip
