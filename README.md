@@ -38,7 +38,7 @@ See the [Icon Reference Sheet](NWCG_Icon_Reference.html) for a visual overview o
 
 ## Version
 
-**R2 — August 2025** | Tested on ATAK 5.4.0.16 and WinTAK
+**R2 — March 2026** | Tested on ATAK 5.4.0.16 and WinTAK v5.5.0.158 (CIV)
 
 See [CHANGELOG.md](CHANGELOG.md) for what changed from the 2021 version.
 

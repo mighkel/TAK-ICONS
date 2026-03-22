@@ -1,6 +1,6 @@
 # Changelog
 
-## R2 — August 2025
+## R2 — March 2026
 
 Aligned with NWCG PMS 936 (2025) and the 2026 NIFS symbology standards.
 
