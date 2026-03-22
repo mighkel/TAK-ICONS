@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWCG GeoOps TAK Iconset — Reference Sheet</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f0;
+      color: #1a1a1a;
+      padding: 24px;
+    }
+
+    header {
+      background: #2c4a1e;
+      color: #fff;
+      padding: 18px 24px;
+      border-radius: 6px;
+      margin-bottom: 24px;
+    }
+    header h1 { font-size: 1.5rem; margin-bottom: 4px; }
+    header .meta { font-size: 0.85rem; opacity: 0.8; }
+    header .meta span { margin-right: 20px; }
+
+    .intro {
+      background: #fff;
+      border-left: 4px solid #2c4a1e;
+      padding: 12px 16px;
+      border-radius: 4px;
+      font-size: 0.88rem;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .toc {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 28px;
+    }
+    .toc a {
+      background: #2c4a1e;
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 12px;
+      border-radius: 16px;
+      font-size: 0.82rem;
+      transition: background 0.2s;
+    }
+    .toc a:hover { background: #3d6929; }
+
+    .group {
+      background: #fff;
+      border-radius: 6px;
+      margin-bottom: 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .group-header {
+      background: #3d6929;
+      color: #fff;
+      padding: 10px 16px;
+      font-size: 1rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group-header .count {
+      font-size: 0.78rem;
+      font-weight: normal;
+      opacity: 0.85;
+      background: rgba(255,255,255,0.2);
+      padding: 2px 8px;
+      border-radius: 10px;
+    }
+    .group-body {
+      padding: 16px;
+    }
+
+    .icon-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .icon-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 88px;
+      text-align: center;
+    }
+    .icon-card .img-wrap {
+      width: 64px;
+      height: 64px;
+      background: #e8f0e0;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #c8d8b8;
+      margin-bottom: 5px;
+    }
+    .icon-card img {
+      max-width: 52px;
+      max-height: 52px;
+      object-fit: contain;
+    }
+    .icon-card .label {
+      font-size: 0.68rem;
+      color: #333;
+      line-height: 1.3;
+    }
+
+    /* Numbered icons — compact row display */
+    .numbered-note {
+      font-size: 0.85rem;
+      color: #555;
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+    .numbered-sample {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .numbered-sample .icon-card { width: 72px; }
+    .numbered-sample .icon-card .img-wrap { width: 52px; height: 52px; }
+    .numbered-sample .icon-card img { max-width: 42px; max-height: 42px; }
+    .range-badge {
+      display: inline-block;
+      background: #e8f0e0;
+      border: 1px solid #a8c490;
+      border-radius: 4px;
+      padding: 3px 10px;
+      font-size: 0.8rem;
+      font-family: monospace;
+      color: #2c4a1e;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #888;
+      border-top: 1px solid #ddd;
+      padding-top: 14px;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+      .icon-card { width: 76px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>NWCG GeoOps Wildfire Iconset — TAK Reference Sheet</h1>
+  <div class="meta">
+    <span>Version: R2 (August 2025)</span>
+    <span>Standard: NWCG PMS 936 (2025)</span>
+    <span>Tested: ATAK 5.4.0.16 &amp; WinTAK</span>
+  </div>
+</header>
+
+<div class="intro">
+  Community-maintained iconset for ATAK/WinTAK aligned with the 2025 NWCG GeoOps symbology standards (PMS 936).
+  Icons are organized into groups as they appear in the ATAK icon palette.
+  New icons added in R2 are noted in the README. Feedback and corrections welcome — see the repository for contact info.
+</div>
+
+<div class="toc">
+  <a href="#air-ops">Air Operations</a>
+  <a href="#general">General</a>
+  <a href="#logistics">Logistics</a>
+  <a href="#structure-triage">Structure Triage</a>
+  <a href="#water">Water</a>
+  <a href="#point-repair">Point Repair Status</a>
+  <a href="#numbered">Numbered DP / Heli Spot</a>
+</div>
+
+<!-- ===== AIR OPS ===== -->
+<div class="group" id="air-ops">
+  <div class="group-header">
+    Air Operations
+    <span class="count">9 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Aerial Hazard.png" alt="Aerial Hazard"></div><div class="label">Aerial Hazard</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Airport or Airstrip.png" alt="Airport or Airstrip"></div><div class="label">Airport / Airstrip</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Checkpoint.png" alt="Checkpoint"></div><div class="label">Checkpoint</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Heli Base.png" alt="Heli Base"></div><div class="label">Heli Base</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Heli Spot.png" alt="Heli Spot"></div><div class="label">Heli Spot</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Mobile Retardant Base.png" alt="Mobile Retardant Base"></div><div class="label">Mobile Retardant Base</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Sling Site.png" alt="Sling Site"></div><div class="label">Sling Site</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/UAS Launch and Recovery.png" alt="UAS Launch and Recovery"></div><div class="label">UAS Launch &amp; Recovery</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Air Ops/Unimproved Landing.png" alt="Unimproved Landing"></div><div class="label">Unimproved Landing</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== GENERAL ===== -->
+<div class="group" id="general">
+  <div class="group-header">
+    General
+    <span class="count">33 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Branch Break.png" alt="Branch Break"></div><div class="label">Branch Break</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Bridge.png" alt="Bridge"></div><div class="label">Bridge</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Clean Up.png" alt="Clean Up"></div><div class="label">Clean Up</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Culvert.png" alt="Culvert"></div><div class="label">Culvert</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Division Break.png" alt="Division Break"></div><div class="label">Division Break</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Dozer Push.png" alt="Dozer Push"></div><div class="label">Dozer Push</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Fence Cut.png" alt="Fence Cut"></div><div class="label">Fence Cut</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Fire Location.png" alt="Fire Location"></div><div class="label">Fire Location</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Fire Origin.png" alt="Fire Origin"></div><div class="label">Fire Origin</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Gate.png" alt="Gate"></div><div class="label">Gate</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Hazard.png" alt="Hazard"></div><div class="label">Hazard</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Hazard Tree.png" alt="Hazard Tree"></div><div class="label">Hazard Tree</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/IR Isolated Heat Source.png" alt="IR Isolated Heat Source"></div><div class="label">IR Isolated Heat Source</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Invasive Plant.png" alt="Invasive Plant"></div><div class="label">Invasive Plant</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Landmark.png" alt="Landmark"></div><div class="label">Landmark</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Log Deck.png" alt="Log Deck"></div><div class="label">Log Deck</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Lookout.png" alt="Lookout"></div><div class="label">Lookout</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Other.png" alt="Other"></div><div class="label">Other</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Other Property.png" alt="Other Property"></div><div class="label">Other Property</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Possible IR Heat Source.png" alt="Possible IR Heat Source"></div><div class="label">Possible IR Heat Source</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Pump.png" alt="Pump"></div><div class="label">Pump</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Repair Point.png" alt="Repair Point"></div><div class="label">Repair Point</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Resource Location.png" alt="Resource Location"></div><div class="label">Resource Location</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Retardant Avoidance Area.png" alt="Retardant Avoidance Area"></div><div class="label">Retardant Avoidance Area</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Road Repair.png" alt="Road Repair"></div><div class="label">Road Repair</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Safety Zone.png" alt="Safety Zone"></div><div class="label">Safety Zone</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Slash Pile.png" alt="Slash Pile"></div><div class="label">Slash Pile</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Spot Fire.png" alt="Spot Fire"></div><div class="label">Spot Fire</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Stream Crossing.png" alt="Stream Crossing"></div><div class="label">Stream Crossing</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Struct Wrap.png" alt="Struct Wrap"></div><div class="label">Struct Wrap</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Value at Risk.png" alt="Value at Risk"></div><div class="label">Value at Risk</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Watertank.png" alt="Watertank"></div><div class="label">Watertank</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/General/Zone Break.png" alt="Zone Break"></div><div class="label">Zone Break</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== LOGISTICS ===== -->
+<div class="group" id="logistics">
+  <div class="group-header">
+    Logistics
+    <span class="count">10 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Camp.png" alt="Camp"></div><div class="label">Camp</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Closure.png" alt="Closure"></div><div class="label">Closure</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Drop Point.png" alt="Drop Point"></div><div class="label">Drop Point</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Fire Station.png" alt="Fire Station"></div><div class="label">Fire Station</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/ICP.png" alt="ICP"></div><div class="label">ICP</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Internet Access.png" alt="Internet Access"></div><div class="label">Internet Access</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Medical.png" alt="Medical"></div><div class="label">Medical</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Repeater.png" alt="Repeater"></div><div class="label">Repeater</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Staging.png" alt="Staging"></div><div class="label">Staging</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Logistics/Wx.png" alt="Weather"></div><div class="label">Wx (Weather)</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== STRUCTURE TRIAGE ===== -->
+<div class="group" id="structure-triage">
+  <div class="group-header">
+    Structure Triage
+    <span class="count">5 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Structure Triage/Defensible Prep and Hold.png" alt="Defensible Prep and Hold"></div><div class="label">Defensible Prep &amp; Hold</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Structure Triage/Defensible Stand Alone.png" alt="Defensible Stand Alone"></div><div class="label">Defensible Stand Alone</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Structure Triage/Non Defensible Prep and Leave.png" alt="Non Defensible Prep and Leave"></div><div class="label">Non-Defensible Prep &amp; Leave</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Structure Triage/Non Defensible Rescue Drive By.png" alt="Non Defensible Rescue Drive By"></div><div class="label">Non-Defensible Rescue Drive-By</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Structure Triage/Unknown Structure Triage.png" alt="Unknown Structure Triage"></div><div class="label">Unknown</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== WATER ===== -->
+<div class="group" id="water">
+  <div class="group-header">
+    Water
+    <span class="count">6 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Dip Site.png" alt="Dip Site"></div><div class="label">Dip Site</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Draft Site.png" alt="Draft Site"></div><div class="label">Draft Site</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Hydrant.png" alt="Hydrant"></div><div class="label">Hydrant</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Restricted Water Source.png" alt="Restricted Water Source"></div><div class="label">Restricted Water Source</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Water Dev.png" alt="Water Development"></div><div class="label">Water Dev</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Water/Water Source.png" alt="Water Source"></div><div class="label">Water Source</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== POINT REPAIR STATUS ===== -->
+<div class="group" id="point-repair">
+  <div class="group-header">
+    Point Repair Status
+    <span class="count">7 icons</span>
+  </div>
+  <div class="group-body">
+    <div class="icon-grid">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/Needs Assessment.png" alt="Needs Assessment"></div><div class="label">Needs Assessment</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/Repair Needed.png" alt="Repair Needed"></div><div class="label">Repair Needed</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/In Progress.png" alt="In Progress"></div><div class="label">In Progress</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/Completed-Rdy Insp.png" alt="Completed Ready for Inspection"></div><div class="label">Completed — Rdy for Insp</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/Completed Inspected.png" alt="Completed Inspected"></div><div class="label">Completed Inspected</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/In Use Fire Mgt.png" alt="In Use Fire Management"></div><div class="label">In Use Fire Mgt</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Point Repair Status/Other-See Comments.png" alt="Other See Comments"></div><div class="label">Other — See Comments</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NUMBERED DP / HELI SPOT ===== -->
+<div class="group" id="numbered">
+  <div class="group-header">
+    Numbered Drop Points &amp; Heli Spots
+    <span class="count">100 icons (01–50 each)</span>
+  </div>
+  <div class="group-body">
+    <p class="numbered-note">
+      Numbered variants of Drop Point and Heli Spot are provided for incidents with many LZs or supply points.
+      Each series runs from <span class="range-badge">01</span> to <span class="range-badge">50</span>.
+      Sample below shows the first five of each.
+    </p>
+    <div class="numbered-sample">
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Drop Point 01.png" alt="Drop Point 01"></div><div class="label">DP 01</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Drop Point 02.png" alt="Drop Point 02"></div><div class="label">DP 02</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Drop Point 03.png" alt="Drop Point 03"></div><div class="label">DP 03</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Drop Point 04.png" alt="Drop Point 04"></div><div class="label">DP 04</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Drop Point 05.png" alt="Drop Point 05"></div><div class="label">DP 05</div></div>
+      <div style="width:1px; height:52px; background:#ccc; margin: 0 4px;"></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Heli Spot 01.png" alt="Heli Spot 01"></div><div class="label">HS 01</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Heli Spot 02.png" alt="Heli Spot 02"></div><div class="label">HS 02</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Heli Spot 03.png" alt="Heli Spot 03"></div><div class="label">HS 03</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Heli Spot 04.png" alt="Heli Spot 04"></div><div class="label">HS 04</div></div>
+      <div class="icon-card"><div class="img-wrap"><img src="NWCG/Numbered DP-LZ/Heli Spot 05.png" alt="Heli Spot 05"></div><div class="label">HS 05</div></div>
+      <div style="padding: 8px 0 0 8px; font-size:0.82rem; color:#666;">… through 50</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  NWCG GeoOps TAK Iconset — Community maintained — NWCG PMS 936 (2025) &nbsp;|&nbsp;
+  Feedback: open an issue on the GitHub repository
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<iconset name="NWCG-GeoOps2026" defaultGroup="General" uid="62a37041-520c-4f1a-9918-15f1ba0c2760" skipResize="false" version="2">
+   <icon name="Aerial Hazard.png" type2525b="a-n-G"/>
+   <icon name="Branch Break.png" type2525b="a-n-G"/>
+   <icon name="Bridge.png" type2525b="a-n-G"/>
+   <icon name="Clean Up.png" type2525b="a-n-G"/>
+   <icon name="Culvert.png" type2525b="a-n-G"/>
+   <icon name="Division Break.png" type2525b="a-n-G"/>
+   <icon name="Dozer Push.png" type2525b="a-n-G"/>
+   <icon name="Fence Cut.png" type2525b="a-n-G"/>
+   <icon name="Fire Location.png" type2525b="a-n-G"/>
+   <icon name="Fire Origin.png" type2525b="a-n-G"/>
+   <icon name="Fire Station.png" type2525b="a-n-G"/>
+   <icon name="Gate.png" type2525b="a-n-G"/>
+   <icon name="Hazard Tree.png" type2525b="a-n-G"/>
+   <icon name="Hazard.png" type2525b="a-n-G"/>
+   <icon name="Invasive Plant.png" type2525b="a-n-G"/>
+   <icon name="IR Isolated Heat Source.png" type2525b="a-n-G"/>
+   <icon name="Landmark.png" type2525b="a-n-G"/>
+   <icon name="Log Deck.png" type2525b="a-n-G"/>
+   <icon name="Lookout.png" type2525b="a-n-G"/>
+   <icon name="Other Property.png" type2525b="a-n-G"/>
+   <icon name="Other.png" type2525b="a-n-G"/>
+   <icon name="Possible IR Heat Source.png" type2525b="a-n-G"/>
+   <icon name="Pump.png" type2525b="a-n-G"/>
+   <icon name="Repair Point.png" type2525b="a-n-G"/>
+   <icon name="Repeater.png" type2525b="a-n-G"/>
+   <icon name="Resource Location.png" type2525b="a-n-G"/>
+   <icon name="Road Repair.png" type2525b="a-n-G"/>
+   <icon name="Retardant Avoidance Area.png" type2525b="a-n-G"/>
+   <icon name="Safety Zone.png" type2525b="a-n-G"/>
+   <icon name="Slash Pile.png" type2525b="a-n-G"/>
+   <icon name="Spot Fire.png" type2525b="a-n-G"/>
+   <icon name="Stream Crossing.png" type2525b="a-n-G"/>
+   <icon name="Struct Wrap.png" type2525b="a-n-G"/>
+   <icon name="Value at Risk.png" type2525b="a-n-G"/>
+   <icon name="Watertank.png" type2525b="a-n-G"/>
+   <icon name="Internet Access.png" type2525b="a-n-G"/>
+   <icon name="Wx.png" type2525b="a-n-G"/>
+   <icon name="Zone Break.png" type2525b="a-n-G"/>
+   <icon name="Airport or Airstrip.png" type2525b="a-n-G"/>
+   <icon name="Checkpoint.png" type2525b="a-n-G"/>
+   <icon name="Heli Base.png" type2525b="a-n-G"/>
+   <icon name="Heli Spot.png" type2525b="a-n-G"/>
+   <icon name="Mobile Retardant Base.png" type2525b="a-n-G"/>
+   <icon name="Sling Site.png" type2525b="a-n-G"/>
+   <icon name="UAS Launch and Recovery.png" type2525b="a-n-G"/>
+   <icon name="Unimproved Landing.png" type2525b="a-n-G"/>
+   <icon name="Camp.png" type2525b="a-n-G"/>
+   <icon name="Closure.png" type2525b="a-n-G"/>
+   <icon name="Drop Point.png" type2525b="a-n-G"/>
+   <icon name="ICP.png" type2525b="a-n-G"/>
+   <icon name="Medical.png" type2525b="a-n-G"/>
+   <icon name="Staging.png" type2525b="a-n-G"/>
+   <icon name="Defensible Prep and Hold.png" type2525b="a-n-G"/>
+   <icon name="Defensible Stand Alone.png" type2525b="a-n-G"/>
+   <icon name="Non Defensible Prep and Leave.png" type2525b="a-n-G"/>
+   <icon name="Non Defensible Rescue Drive By.png" type2525b="a-n-G"/>
+   <icon name="Unknown Structure Triage.png" type2525b="a-n-G"/>
+   <icon name="Dip Site.png" type2525b="a-n-G"/>
+   <icon name="Draft Site.png" type2525b="a-n-G"/>
+   <icon name="Hydrant.png" type2525b="a-n-G"/>
+   <icon name="Restricted Water Source.png" type2525b="a-n-G"/>
+   <icon name="Water Dev.png" type2525b="a-n-G"/>
+   <icon name="Water Source.png" type2525b="a-n-G"/>
+   <icon name="Completed Inspected.png" type2525b="a-n-G"/>
+   <icon name="Completed-Rdy Insp.png" type2525b="a-n-G"/>
+   <icon name="In Progress.png" type2525b="a-n-G"/>
+   <icon name="In Use Fire Mgt.png" type2525b="a-n-G"/>
+   <icon name="Needs Assessment.png" type2525b="a-n-G"/>
+   <icon name="Other-See Comments.png" type2525b="a-n-G"/>
+   <icon name="Repair Needed.png" type2525b="a-n-G"/>
+   <icon name="Drop Point 01" type2525b="a-n-G"/>
+   <icon name="Drop Point 02" type2525b="a-n-G"/>
+   <icon name="Drop Point 03" type2525b="a-n-G"/>
+   <icon name="Drop Point 04" type2525b="a-n-G"/>
+   <icon name="Drop Point 05" type2525b="a-n-G"/>
+   <icon name="Drop Point 06" type2525b="a-n-G"/>
+   <icon name="Drop Point 07" type2525b="a-n-G"/>
+   <icon name="Drop Point 08" type2525b="a-n-G"/>
+   <icon name="Drop Point 09" type2525b="a-n-G"/>
+   <icon name="Drop Point 10" type2525b="a-n-G"/>
+   <icon name="Drop Point 11" type2525b="a-n-G"/>
+   <icon name="Drop Point 12" type2525b="a-n-G"/>
+   <icon name="Drop Point 13" type2525b="a-n-G"/>
+   <icon name="Drop Point 14" type2525b="a-n-G"/>
+   <icon name="Drop Point 15" type2525b="a-n-G"/>
+   <icon name="Drop Point 16" type2525b="a-n-G"/>
+   <icon name="Drop Point 17" type2525b="a-n-G"/>
+   <icon name="Drop Point 18" type2525b="a-n-G"/>
+   <icon name="Drop Point 19" type2525b="a-n-G"/>
+   <icon name="Drop Point 20" type2525b="a-n-G"/>
+   <icon name="Drop Point 21" type2525b="a-n-G"/>
+   <icon name="Drop Point 22" type2525b="a-n-G"/>
+   <icon name="Drop Point 23" type2525b="a-n-G"/>
+   <icon name="Drop Point 24" type2525b="a-n-G"/>
+   <icon name="Drop Point 25" type2525b="a-n-G"/>
+   <icon name="Drop Point 26" type2525b="a-n-G"/>
+   <icon name="Drop Point 27" type2525b="a-n-G"/>
+   <icon name="Drop Point 28" type2525b="a-n-G"/>
+   <icon name="Drop Point 29" type2525b="a-n-G"/>
+   <icon name="Drop Point 30" type2525b="a-n-G"/>
+   <icon name="Drop Point 31" type2525b="a-n-G"/>
+   <icon name="Drop Point 32" type2525b="a-n-G"/>
+   <icon name="Drop Point 33" type2525b="a-n-G"/>
+   <icon name="Drop Point 34" type2525b="a-n-G"/>
+   <icon name="Drop Point 35" type2525b="a-n-G"/>
+   <icon name="Drop Point 36" type2525b="a-n-G"/>
+   <icon name="Drop Point 37" type2525b="a-n-G"/>
+   <icon name="Drop Point 38" type2525b="a-n-G"/>
+   <icon name="Drop Point 39" type2525b="a-n-G"/>
+   <icon name="Drop Point 40" type2525b="a-n-G"/>
+   <icon name="Drop Point 41" type2525b="a-n-G"/>
+   <icon name="Drop Point 42" type2525b="a-n-G"/>
+   <icon name="Drop Point 43" type2525b="a-n-G"/>
+   <icon name="Drop Point 44" type2525b="a-n-G"/>
+   <icon name="Drop Point 45" type2525b="a-n-G"/>
+   <icon name="Drop Point 46" type2525b="a-n-G"/>
+   <icon name="Drop Point 47" type2525b="a-n-G"/>
+   <icon name="Drop Point 48" type2525b="a-n-G"/>
+   <icon name="Drop Point 49" type2525b="a-n-G"/>
+   <icon name="Drop Point 50" type2525b="a-n-G"/>
+   <icon name="Heli Spot 01" type2525b="a-n-G"/>
+   <icon name="Heli Spot 02" type2525b="a-n-G"/>
+   <icon name="Heli Spot 03" type2525b="a-n-G"/>
+   <icon name="Heli Spot 04" type2525b="a-n-G"/>
+   <icon name="Heli Spot 05" type2525b="a-n-G"/>
+   <icon name="Heli Spot 06" type2525b="a-n-G"/>
+   <icon name="Heli Spot 07" type2525b="a-n-G"/>
+   <icon name="Heli Spot 08" type2525b="a-n-G"/>
+   <icon name="Heli Spot 09" type2525b="a-n-G"/>
+   <icon name="Heli Spot 10" type2525b="a-n-G"/>
+   <icon name="Heli Spot 11" type2525b="a-n-G"/>
+   <icon name="Heli Spot 12" type2525b="a-n-G"/>
+   <icon name="Heli Spot 13" type2525b="a-n-G"/>
+   <icon name="Heli Spot 14" type2525b="a-n-G"/>
+   <icon name="Heli Spot 15" type2525b="a-n-G"/>
+   <icon name="Heli Spot 16" type2525b="a-n-G"/>
+   <icon name="Heli Spot 17" type2525b="a-n-G"/>
+   <icon name="Heli Spot 18" type2525b="a-n-G"/>
+   <icon name="Heli Spot 19" type2525b="a-n-G"/>
+   <icon name="Heli Spot 20" type2525b="a-n-G"/>
+   <icon name="Heli Spot 21" type2525b="a-n-G"/>
+   <icon name="Heli Spot 22" type2525b="a-n-G"/>
+   <icon name="Heli Spot 23" type2525b="a-n-G"/>
+   <icon name="Heli Spot 24" type2525b="a-n-G"/>
+   <icon name="Heli Spot 25" type2525b="a-n-G"/>
+   <icon name="Heli Spot 26" type2525b="a-n-G"/>
+   <icon name="Heli Spot 27" type2525b="a-n-G"/>
+   <icon name="Heli Spot 28" type2525b="a-n-G"/>
+   <icon name="Heli Spot 29" type2525b="a-n-G"/>
+   <icon name="Heli Spot 30" type2525b="a-n-G"/>
+   <icon name="Heli Spot 31" type2525b="a-n-G"/>
+   <icon name="Heli Spot 32" type2525b="a-n-G"/>
+   <icon name="Heli Spot 33" type2525b="a-n-G"/>
+   <icon name="Heli Spot 34" type2525b="a-n-G"/>
+   <icon name="Heli Spot 35" type2525b="a-n-G"/>
+   <icon name="Heli Spot 36" type2525b="a-n-G"/>
+   <icon name="Heli Spot 37" type2525b="a-n-G"/>
+   <icon name="Heli Spot 38" type2525b="a-n-G"/>
+   <icon name="Heli Spot 39" type2525b="a-n-G"/>
+   <icon name="Heli Spot 40" type2525b="a-n-G"/>
+   <icon name="Heli Spot 41" type2525b="a-n-G"/>
+   <icon name="Heli Spot 42" type2525b="a-n-G"/>
+   <icon name="Heli Spot 43" type2525b="a-n-G"/>
+   <icon name="Heli Spot 44" type2525b="a-n-G"/>
+   <icon name="Heli Spot 45" type2525b="a-n-G"/>
+   <icon name="Heli Spot 46" type2525b="a-n-G"/>
+   <icon name="Heli Spot 47" type2525b="a-n-G"/>
+   <icon name="Heli Spot 48" type2525b="a-n-G"/>
+   <icon name="Heli Spot 49" type2525b="a-n-G"/>
+   <icon name="Heli Spot 50" type2525b="a-n-G"/>
+</iconset>
