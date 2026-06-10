@@ -1,10 +1,15 @@
 # Changelog
 
-## Unreleased
+## R3 — June 2026
+
+### Compatibility
+
+- **TAK Aware / TAK Server**: repackaged as a TAK Mission Package (zip-in-zip format) — use `NWCG-GeoOps2026-R3.zip`
+- **CloudTAK**: added a separate flat-zip build target — use `NWCG-GeoOps2026-R3-CloudTAK.zip`
 
 ### Fixes
 
-- Renamed subgroup **Numbered DP-LZ** → **Numbered DP LZ** (removed hyphen) to improve compatibility with TAK Aware and CloudTAK
+- Fixed Numbered DP-LZ icon entries in `iconset.xml` missing `.png` file extension, which caused those icons to display as generic `a-u-G` points in strict TAK clients
 
 ---
 

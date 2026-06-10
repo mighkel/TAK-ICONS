@@ -11,15 +11,15 @@ Open a GitHub issue for any of the following:
 - **Missing icons** — something in NWCG PMS 936 that isn't in the set
 - **Color or design errors** — symbol doesn't match the official NWCG standard
 - **Grouping or naming issues** — hard to find in ATAK, or name doesn't match field usage
-- **Compatibility problems** — broken display on a specific ATAK or WinTAK version
+- **Compatibility problems** — broken display on a specific TAK platform or version
 
-Please include your ATAK/WinTAK version and a screenshot if it helps illustrate the problem.
+Please include your TAK platform and version, and a screenshot if it helps illustrate the problem.
 
 ---
 
 ## Submitting Updates
 
-1. Test in ATAK and WinTAK if you have access to both
+1. Test in ATAK, WinTAK, TAK Aware, or CloudTAK — whichever you have access to
 2. Match the official NWCG PMS 936 name where one exists
 3. Keep PNG format and match the resolution of existing icons
 4. No white background fill — icons must have transparent backgrounds
@@ -41,7 +41,7 @@ Groups are organized by operational use, not strict PMS 936 category order:
 | Structure Triage | Structure status symbols (2024 NWCG addendum) |
 | Water | Water sources and supply points |
 | Point Repair Status | Road/resource repair workflow status (2024 NWCG addendum) |
-| Numbered DP LZ | Numbered Drop Points and Heli Spots 01–50 |
+| Numbered DP-LZ | Numbered Drop Points and Heli Spots 01–50 |
 
 ---
 
