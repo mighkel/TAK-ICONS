@@ -41,7 +41,7 @@ Groups are organized by operational use, not strict PMS 936 category order:
 | Structure Triage | Structure status symbols (2024 NWCG addendum) |
 | Water | Water sources and supply points |
 | Point Repair Status | Road/resource repair workflow status (2024 NWCG addendum) |
-| Numbered DP-LZ | Numbered Drop Points and Heli Spots 01–50 |
+| Numbered DP LZ | Numbered Drop Points and Heli Spots 01–50 |
 
 ---
 

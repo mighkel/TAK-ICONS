@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Fixes
+
+- Renamed subgroup **Numbered DP-LZ** → **Numbered DP LZ** (removed hyphen) to improve compatibility with TAK Aware and CloudTAK
+
+---
+
 ## R2 — March 2026
 
 Aligned with NWCG PMS 936 (2025) and the 2026 NIFS symbology standards.
